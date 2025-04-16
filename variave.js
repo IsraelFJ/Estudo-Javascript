@@ -13,9 +13,6 @@ console.log('Idade:', idade)
 // Template String 
 console.log(`Idade: ${idade}`)
 
-// Condiciaonais em javaScritp
-if (idade < 18){
-    console.log('Menor de idade')
-} else{
-    console.log('Maior de idade')
-}
+
+
+
