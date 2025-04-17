@@ -2,7 +2,6 @@ let dia = Math.floor(Math.random() * 6);
 let semana = ["Domingo", "Segunda","Terça","Quarta","Quinta","Sexta","Sabado"];
 let diasDaSemana = semana[dia]
 
-
 if (diasDaSemana == 1){
     console.log('domingo não é dia util', diasDaSemana, dia)
 }else if(dia == 6){
@@ -11,8 +10,6 @@ if (diasDaSemana == 1){
 else{
     console.log('Dia util', diasDaSemana, dia)
 }
-
-
 
 let idadeVotacao = 20
 
@@ -27,4 +24,25 @@ else if(idadeVotacao > 18 && idadeVotacao < 65){
 }
 else if(idadeVotacao > 65 ){
     console.log('O voto a partir dos 65 é opcional')
+}
+
+let a = 10
+let b = 10
+let c = 15
+
+if(a + b < c){
+    console.log(`A soma de ${a} + ${b} é menor que ${c}`)
+}
+else if(a + b > c ){
+    console.log(`A soma de ${a} + ${b} é maior que ${c}`)
+}
+
+
+// modulado 
+let par = Math.floor(Math.random() * 100) + 1 ;
+
+if(par %2 == 0 ){
+    console.log('O numero é par')
+}else{
+    console.log('O numero é impar')
 }
