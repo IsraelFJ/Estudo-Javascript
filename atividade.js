@@ -39,10 +39,10 @@ else if(a + b > c ){
 
 
 // modulado 
-let par = Math.floor(Math.random() * 100) + 1 ;
+let par = Math.floor(Math.random() * 10) + 1 ;
 
 if(par %2 == 0 ){
-    console.log('O numero é par')
+    console.log('O numero é par', par)
 }else{
-    console.log('O numero é impar')
+    console.log('O numero é impar', par)
 }
